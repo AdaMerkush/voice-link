@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="users">
+    <meta name="description" content="user-list">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>voice-link</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <link rel="stylesheet" href="styles/props.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body>
+    <header class="header auth-header">
+      <div class="header__button-menu button-menu" aria-label="меню" role="button">
+        <span class="button-menu__line button-menu__line_1"></span>
+        <span class="button-menu__line button-menu__line_2"></span>
+        <span class="button-menu__line button-menu__line_3"></span>
+      </div>
+      <h1 class="auth-header__title header-title">Пользователи</h1>
+      <a class="header__button header-button button_yellow" href="#" aria-label="Добавить пользователя" role="button">Добавить пользователя</a>
+    </header>
+    <main class="main">
+      <section class="auth">
+        <ul class="auth__users-list users-list">
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">root(root@root.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_disable" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">operator(operator@asudd.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_active" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">mobile(mobile@inso.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_active" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">test-user1(test-user1@nso.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_active" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">rnis(rnis@nso.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_active" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+          <li class="auth__users-item users-item">
+            <div class="users-item__status-image status-image">
+              <svg class="status-image__icon icon-key icon-key_block" aria-label="аккаунт пользователя под паролем">
+                <path fill="currentColor" d="M7,14A2,2 0 0,1 5,12A2,2 0 0,1 7,10A2,2 0 0,1 9,12A2,2 0 0,1 7,14M12.65,10C11.83,7.67 9.61,6 7,6A6,6 0 0,0 1,12A6,6 0 0,0 7,18C9.61,18 11.83,16.33 12.65,14H17V18H21V14H23V10H12.65Z" />
+              </svg>
+            </div>
+            <p class="users-list__content users-list-content">asudd(asudd@nso.ru)</p>
+            <button class="users-item__button users-itemt-button button-keylock" type="button" aria-label="войти под аккаунтом">
+              <svg class="users-list__icon icon-keylock">
+                <path fill="currentColor" d="M12,8A1,1 0 0,1 13,9A1,1 0 0,1 12,10A1,1 0 0,1 11,9A1,1 0 0,1 12,8M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,6A3,3 0 0,0 9,9C9,10.31 9.83,11.42 11,11.83V18H13V16H15V14H13V11.83C14.17,11.42 15,10.31 15,9A3,3 0 0,0 12,6Z" />
+              </svg>
+            </button>
+            <button class="users-item__button users-item-button button-trash button-trash_active" type="button" aria-label="нельзя удалить аккаунт"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

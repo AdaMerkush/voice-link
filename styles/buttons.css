@@ -1,0 +1,66 @@
+.button_yellow {
+  background-color: var(--button-bg);
+  color: var(--black);
+  font-size: 14px;
+  border-radius: 2px;
+}
+.button_yellow:hover {
+  background-color: var(--button-bg-hover);
+}
+.button_yellow:active {
+  opacity: 0.3;
+}
+
+
+.button-menu {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.button-menu__line {
+  background-color: var(--white);
+  height: 2px;
+  width: 100%;
+}
+
+.header-button {
+  max-height: 24px;
+  padding: 5px 10px;
+  text-decoration: none;
+  line-height: 14px;
+}
+
+.users-item-button {
+  width: 44px;
+  height: 44px;
+}
+
+.button-keylock {
+  background: none;
+  color: currentColor;
+  border: none;
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+}
+
+.button-trash {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 44px;
+  height: 44px;
+}
+
+.button-trash_disable {
+  background-image: url("../images/delete-empty.svg");
+}
+
+.button-trash_active {
+  background-image: url("../images/delete.svg");
+}
